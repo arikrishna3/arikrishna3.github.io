@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arikrishna Pandian S | AI & ML Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+    body{font-family:'Poppins',sans-serif;background:#f5ead7;color:#243042;line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    header{position:sticky;top:0;z-index:10;background:rgba(245,234,215,.88);backdrop-filter:blur(14px);box-shadow:0 5px 25px rgba(0,0,0,.08)}
+    nav{max-width:1150px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:18px 24px}
+    .logo{font-size:22px;font-weight:800;color:#12355b}.logo span{color:#0b74b8}
+    .nav-links{display:flex;gap:22px;font-weight:600;font-size:14px}.nav-links a:hover{color:#0b74b8}
+    section{max-width:1150px;margin:auto;padding:70px 24px}.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:35px;align-items:center;min-height:85vh}
+    .badge{display:inline-block;background:#fff3df;border:1px solid #e0c89d;color:#8a5b18;padding:8px 15px;border-radius:30px;font-weight:600;margin-bottom:18px}
+    h1{font-size:52px;line-height:1.12;color:#12355b;margin-bottom:15px}.highlight{color:#0b74b8}.hero p{font-size:18px;color:#4c5968;margin-bottom:26px}
+    .btns{display:flex;gap:15px;flex-wrap:wrap}.btn{padding:13px 22px;border-radius:30px;font-weight:700;transition:.3s}.primary{background:#12355b;color:white;box-shadow:0 12px 25px rgba(18,53,91,.25)}.primary:hover{transform:translateY(-3px);background:#0b74b8}.secondary{border:2px solid #12355b;color:#12355b}.secondary:hover{background:#12355b;color:white}
+    .profile-card{background:rgba(255,255,255,.62);border:1px solid rgba(255,255,255,.75);border-radius:28px;padding:30px;box-shadow:0 20px 45px rgba(57,38,9,.13);text-align:center}.avatar{width:140px;height:140px;border-radius:50%;background:linear-gradient(135deg,#12355b,#0b74b8);margin:0 auto 22px;display:grid;place-items:center;color:white;font-size:50px;font-weight:800}.profile-card h2{color:#12355b;margin-bottom:8px}.profile-card p{font-size:15px;margin-bottom:10px}
+    .section-title{text-align:center;margin-bottom:42px}.section-title h2{font-size:34px;color:#12355b}.section-title p{color:#687382;margin-top:8px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.8);border-radius:22px;padding:25px;box-shadow:0 12px 30px rgba(57,38,9,.09);transition:.3s}.card:hover{transform:translateY(-7px);box-shadow:0 18px 38px rgba(57,38,9,.14)}.card h3{color:#12355b;margin-bottom:10px}.card ul{padding-left:20px;color:#4c5968}.card p{color:#4c5968}
+    .skills{display:flex;flex-wrap:wrap;gap:12px}.skill{background:#12355b;color:white;padding:10px 16px;border-radius:25px;font-weight:600;font-size:14px}.skill:nth-child(even){background:#0b74b8}
+    .project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.project{position:relative;overflow:hidden}.project::before{content:'';position:absolute;right:-45px;top:-45px;width:120px;height:120px;border-radius:50%;background:#f3cf91;opacity:.45}.tech{margin-top:15px;display:flex;gap:8px;flex-wrap:wrap}.tech span{background:#fff3df;color:#8a5b18;border:1px solid #e0c89d;padding:6px 10px;border-radius:18px;font-size:12px;font-weight:700}
+    .timeline{display:grid;gap:18px}.timeline-item{display:grid;grid-template-columns:170px 1fr;gap:20px}.year{background:#12355b;color:white;border-radius:18px;padding:18px;text-align:center;font-weight:800}.detail{background:rgba(255,255,255,.7);border-radius:18px;padding:18px;box-shadow:0 10px 25px rgba(57,38,9,.08)}.detail h3{color:#12355b}
+    .contact{background:#12355b;color:white;border-radius:28px;padding:40px;text-align:center;box-shadow:0 20px 45px rgba(18,53,91,.25)}.contact h2{font-size:32px;margin-bottom:10px}.contact-links{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:25px}.contact-links a{background:white;color:#12355b;padding:12px 18px;border-radius:25px;font-weight:700}.contact-links a:hover{background:#f3cf91}
+    footer{text-align:center;padding:25px;color:#687382}
+    @media(max-width:850px){.hero,.grid,.project-grid{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr}h1{font-size:38px}.nav-links{display:none}}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Arikrishna<span>.</span></div>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div>
+      <span class="badge">B.E CSE - Artificial Intelligence & Machine Learning</span>
+      <h1>Hi, I'm <span class="highlight">Arikrishna Pandian S</span></h1>
+      <p>A motivated AIML student passionate about AI, machine learning, web development, data analysis, and building useful software solutions.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn secondary" href="https://www.linkedin.com/in/ari-krishna-pandian-7746413b5/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="profile-card">
+      <div class="avatar">AP</div>
+      <h2>AI & ML Student</h2>
+      <p>Saranathan College of Engineering</p>
+      <p>Trichy, Tamil Nadu</p>
+      <p><b>Email:</b> arikrishna0326@gmail.com</p>
+      <p><b>GitHub:</b> github.com/arikrishna3</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-title"><h2>About Me</h2><p>Career goal and professional summary</p></div>
+    <div class="card">
+      <p>I am an Artificial Intelligence and Machine Learning undergraduate student interested in programming, problem-solving, full-stack development, and AI-based solutions. I enjoy creating projects that solve real-world problems, especially in web development and sustainable cloud computing. My goal is to become a skilled AI Engineer, Software Developer, or Full Stack Developer.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-title"><h2>Technical Skills</h2><p>Programming languages, technologies, and tools</p></div>
+    <div class="card">
+      <div class="skills">
+        <span class="skill">Java</span><span class="skill">Python</span><span class="skill">C</span><span class="skill">JavaScript</span><span class="skill">HTML5</span><span class="skill">CSS3</span><span class="skill">SQL</span><span class="skill">Node.js</span><span class="skill">MySQL</span><span class="skill">MongoDB</span><span class="skill">Git</span><span class="skill">GitHub</span><span class="skill">VS Code</span><span class="skill">Eclipse</span><span class="skill">OOP</span><span class="skill">DSA</span><span class="skill">Machine Learning</span><span class="skill">Predictive Analytics</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-title"><h2>Projects</h2><p>Academic and team projects</p></div>
+    <div class="project-grid">
+      <div class="card project">
+        <h3>EcoCloud AI</h3>
+        <p>A team project that uses AI to optimize cloud resource and storage utilization, helping companies reduce unnecessary cloud usage, operational cost, and carbon emissions.</p>
+        <div class="tech"><span>Python</span><span>Predictive Analytics</span><span>Groq AI</span><span>Machine Learning</span></div>
+      </div>
+      <div class="card project">
+        <h3>E-Commerce Website</h3>
+        <p>A responsive shopping website with user authentication, product management, and order processing features.</p>
+        <div class="tech"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Node.js</span><span>MongoDB</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-title"><h2>Internship & Experience</h2><p>Hands-on learning experience</p></div>
+    <div class="grid">
+      <div class="card">
+        <h3>Web Technology Intern</h3>
+        <p><b>EdVedha</b></p>
+        <p>Gained practical experience in designing and developing responsive web pages using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Achievements</h3>
+        <ul><li>Participated in Krone Hackathon</li><li>Volunteered in college 24-hour Hackathon</li></ul>
+      </div>
+      <div class="card">
+        <h3>Soft Skills</h3>
+        <ul><li>Team Collaboration</li><li>Problem Solving</li><li>Leadership</li><li>Communication</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="section-title"><h2>Education</h2><p>Academic qualification</p></div>
+    <div class="timeline">
+      <div class="timeline-item"><div class="year">2023 - 2027</div><div class="detail"><h3>B.E CSE (AI & ML)</h3><p>Saranathan College of Engineering | CGPA: 7.65/10</p></div></div>
+      <div class="timeline-item"><div class="year">2023</div><div class="detail"><h3>Class XII - State Board</h3><p>Arockiamatha Matric Hr. Sec School | 75.5%</p></div></div>
+      <div class="timeline-item"><div class="year">2021</div><div class="detail"><h3>Class X - State Board</h3><p>Arockiamatha Matric Hr. Sec School | 100%</p></div></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Let's Connect</h2>
+      <p>Open to internships, projects, and learning opportunities in AI, ML, and Web Development.</p>
+      <div class="contact-links">
+        <a href="mailto:arikrishna0326@gmail.com">Email</a>
+        <a href="tel:+919994016353">Call</a>
+        <a href="https://www.linkedin.com/in/ari-krishna-pandian-7746413b5/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/arikrishna3" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2026 Arikrishna Pandian S | AI & ML Portfolio</footer>
+</body>
+</html>
